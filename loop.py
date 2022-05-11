@@ -1,4 +1,4 @@
-row, col = [int(i) for i in input().split()]
+row, col = [int(i) for i in input("Введите число строк и число столбцов матрицы через пробел: ").split()]
 matrix = [[None] * col for j in range(row)]
 dx, dy = 0, 1
 x, y = 0, 0
